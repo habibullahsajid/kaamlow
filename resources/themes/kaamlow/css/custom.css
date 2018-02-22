@@ -1,0 +1,538 @@
+
+body {
+    font-size: 14px
+}
+
+#menu-main > li > a > span {
+    font-size: 14px
+}
+
+#menu-main li li a span {
+    font-size: 14px
+}
+
+.breadcrumb-nav span, .breadcrumb-nav a {
+    font-size: 14px
+}
+
+.widget-area .widget-title {
+    font-size: 16px
+}
+
+.footer-widget-area .widget-title {
+    font-size: 16px
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 16px
+}
+
+.site-tagline {
+    font-size: 14px
+}
+
+.entry-meta li, .entry-meta li a, .entry-meta span {
+    font-size: 14px
+}
+
+.page-title h1 {
+    font-size: 30px
+}
+
+.page-title h3 {
+    font-size: 14px
+}
+
+.post-pagination li a {
+    font-size: 14px
+}
+
+.fxd-header {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.top-bar {
+    background-color: #eee;
+}
+
+.site-name, .site-tagline {
+    color: #666666;
+}
+
+footer .footer-info-area {
+    background-color: #0a0a0a
+}
+
+.fxd-header .site-nav > ul > li a {
+    color: #333333;
+}
+
+.page-title-bar h1, .page-title-bar a, .page-title-bar span {
+    color: #ffffff !important;
+}
+
+.post-inner, .page-inner {
+    padding-top: 0;
+}
+
+.post-inner, .page-inner {
+    padding-bottom: 0;
+}
+
+@media (min-width: 920px) {
+    .main-header .site-nav > ul > li > a {
+        padding-top: 0px;
+    }
+}
+
+@media (min-width: 920px) {
+    .main-header .site-nav > ul > li > a {
+        padding-bottom: 0px;
+    }
+}
+
+.fxd-header {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.fxd-header .site-nav > ul > li > a {
+    font-size: 14px;
+}
+
+.site-nav li ul {
+    width: 150px
+}
+
+@media screen and (min-width: 919px) {
+    .main-header .site-nav > ul > li > a {
+        line-height: 70px;
+    }
+
+    .site-nav > ul > li a {
+        border-bottom: 2px solid transparent;
+    }
+
+}
+
+@media screen and (max-width: 919px) {
+    .site-nav-toggle {
+        display: block;
+    }
+
+    .site-nav {
+        display: none;
+        width: 100%;
+        margin-top: 0;
+        background-color: #fff;
+    }
+
+    .site-nav > ul > li {
+        float: none;
+        overflow: hidden;
+    }
+
+    .site-nav > ul > li + li {
+        margin-left: 0;
+    }
+
+    .site-nav > ul > li a {
+        line-height: 50px;
+    }
+
+    .site-nav > ul > li i {
+        line-height: 50px;
+    }
+
+    .site-nav li > ul {
+        position: static;
+        margin-left: 20px;
+        z-index: 999;
+        width: auto;
+        background-color: transparent;
+    }
+
+    .site-nav li ul li > a {
+        color: #555;
+    }
+
+    .site-nav li ul li:hover > a {
+        color: #19cbcf;
+    }
+
+    .search-form {
+        display: none;
+        margin: 25px 0 15px;
+    }
+
+    header {
+        min-height: 65px;
+    }
+
+    .site-logo {
+        height: 50px;
+    }
+
+    .site-name {
+        margin: 0;
+        font-size: 24px;
+        font-weight: normal;
+    }
+}
+
+.page-title-bar {
+    background-image: url(../../../images/bg-1.jpg);
+    background-repeat: no-repeat;
+}
+
+.page-title-bar {
+    padding-top: 210px;
+    padding-bottom: 160px;
+}
+
+@media (min-width: 992px) {
+    .left-aside .col-main,
+    .right-aside .col-main {
+        width: 75%;
+    }
+
+    .left-aside .col-main {
+        left: 25%;
+    }
+
+    .left-aside .col-aside-left {
+        right: 75%;
+    }
+
+    .left-aside .col-aside-left,
+    .right-aside .col-aside-right {
+        width: 25%;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .both-aside .col-main {
+        width: 60%;
+    }
+
+    .both-aside .col-aside-left {
+        width: 20%;
+    }
+
+    .both-aside .col-aside-left {
+        right: 60%;
+    }
+
+    .both-aside .col-aside-right {
+        width: 20%;
+    }
+
+    .both-aside .col-main {
+        left: 20%;
+    }
+
+    .both-aside .col-aside-right {
+        width: 20%;
+    }
+
+}
+
+.footer-widget-area {
+
+    padding-top: 60px;
+
+    padding-bottom: 40px;
+
+}
+
+.footer-info-area {
+
+}
+
+.footer-sns i {
+    color: #c5c7c9
+}
+
+.footer-sns a {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.carousel-caption p {
+    font-size: 14px;
+}
+
+.carousel-caption p {
+    text-align: left;
+}
+
+#alchem-home-sections .alchem-home-section-0 {
+
+    background-image: url(../../../images/banner_001.jpg);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#alchem-home-sections .alchem-home-section-0, .alchem-home-section-0 p, .alchem-home-section-0 span, .alchem-home-section-0 h1, .alchem-home-section-0 h2, .alchem-home-section-0 div, .alchem-home-section-0 li, .alchem-home-section-0 i {
+    color: #ffffff;
+}
+
+#alchem-home-sections .alchem-home-section-0 a.magee-btn-normal {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+#alchem-home-sections .alchem-home-section-0 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-0 .owl-theme .owl-dots .owl-dot:hover {
+    background-color: #ffffff;
+}
+
+#alchem-home-sections .alchem-home-section-0 .owl-theme .owl-dots .owl-dot {
+    border: 2px solid #ffffff;
+}
+
+#alchem-home-sections .alchem-home-section-1 {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#alchem-home-sections .alchem-home-section-1, .alchem-home-section-1 p, .alchem-home-section-1 span, .alchem-home-section-1 h1, .alchem-home-section-1 h2, .alchem-home-section-1 div, .alchem-home-section-1 li, .alchem-home-section-1 i {
+}
+
+#alchem-home-sections .alchem-home-section-1 a.magee-btn-normal {
+
+}
+
+#alchem-home-sections .alchem-home-section-1 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-1 .owl-theme .owl-dots .owl-dot:hover {
+
+}
+
+#alchem-home-sections .alchem-home-section-1 .owl-theme .owl-dots .owl-dot {
+    border: 2px solid;
+}
+
+#alchem-home-sections .alchem-home-section-2 {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#alchem-home-sections .alchem-home-section-2, .alchem-home-section-2 p, .alchem-home-section-2 span, .alchem-home-section-2 h1, .alchem-home-section-2 h2, .alchem-home-section-2 div, .alchem-home-section-2 li, .alchem-home-section-2 i {
+}
+
+#alchem-home-sections .alchem-home-section-2 a.magee-btn-normal {
+
+}
+
+#alchem-home-sections .alchem-home-section-2 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-2 .owl-theme .owl-dots .owl-dot:hover {
+
+}
+
+#alchem-home-sections .alchem-home-section-2 .owl-theme .owl-dots .owl-dot {
+    border: 2px solid;
+}
+
+#alchem-home-sections .alchem-home-section-3 {
+    background-color: #f3f3f4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#alchem-home-sections .alchem-home-section-3, .alchem-home-section-3 p, .alchem-home-section-3 span, .alchem-home-section-3 h1, .alchem-home-section-3 h2, .alchem-home-section-3 div, .alchem-home-section-3 li, .alchem-home-section-3 i {
+}
+
+#alchem-home-sections .alchem-home-section-3 a.magee-btn-normal {
+
+}
+
+#alchem-home-sections .alchem-home-section-3 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-3 .owl-theme .owl-dots .owl-dot:hover {
+
+}
+
+#alchem-home-sections .alchem-home-section-3 .owl-theme .owl-dots .owl-dot {
+    border: 2px solid;
+}
+
+#alchem-home-sections .alchem-home-section-4 {
+
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#alchem-home-sections .alchem-home-section-4, .alchem-home-section-4 p, .alchem-home-section-4 span, .alchem-home-section-4 h1, .alchem-home-section-4 h2, .alchem-home-section-4 div, .alchem-home-section-4 li, .alchem-home-section-4 i {
+}
+
+#alchem-home-sections .alchem-home-section-4 a.magee-btn-normal {
+
+}
+
+#alchem-home-sections .alchem-home-section-4 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-4 .owl-theme .owl-dots .owl-dot:hover {
+
+}
+
+#alchem-home-sections .alchem-home-section-4 .owl-theme .owl-dots .owl-dot {
+    border: 2px solid;
+}
+
+#alchem-home-sections .alchem-home-section-5 {
+
+    background-image: url(../../../images/blog/bg-02-1.jpg);
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#alchem-home-sections .alchem-home-section-5, .alchem-home-section-5 p, .alchem-home-section-5 span, .alchem-home-section-5 h1, .alchem-home-section-5 h2, .alchem-home-section-5 div, .alchem-home-section-5 li, .alchem-home-section-5 i {
+}
+
+#alchem-home-sections .alchem-home-section-5 a.magee-btn-normal {
+
+}
+
+#alchem-home-sections .alchem-home-section-5 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-5 .owl-theme .owl-dots .owl-dot:hover {
+
+}
+
+#alchem-home-sections .alchem-home-section-5 .owl-theme .owl-dots .owl-dot {
+    border: 2px solid;
+}
+
+#alchem-home-sections .alchem-home-section-6 {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#alchem-home-sections .alchem-home-section-6, .alchem-home-section-6 p, .alchem-home-section-6 span, .alchem-home-section-6 h1, .alchem-home-section-6 h2, .alchem-home-section-6 div, .alchem-home-section-6 li, .alchem-home-section-6 i {
+}
+
+#alchem-home-sections .alchem-home-section-6 a.magee-btn-normal {
+
+}
+
+#alchem-home-sections .alchem-home-section-6 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-6 .owl-theme .owl-dots .owl-dot:hover {
+
+}
+
+#alchem-home-sections .alchem-home-section-6 .owl-theme .owl-dots .owl-dot {
+    border: 2px solid;
+}
+
+#alchem-home-sections .alchem-home-section-7 {
+
+    background-image: url(../../../images/blog/bg-003-2.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#alchem-home-sections .alchem-home-section-7, .alchem-home-section-7 p, .alchem-home-section-7 span, .alchem-home-section-7 h1, .alchem-home-section-7 h2, .alchem-home-section-7 div, .alchem-home-section-7 li, .alchem-home-section-7 i {
+    color: #ffffff;
+}
+
+#alchem-home-sections .alchem-home-section-7 a.magee-btn-normal {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+#alchem-home-sections .alchem-home-section-7 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-7 .owl-theme .owl-dots .owl-dot:hover {
+    background-color: #ffffff;
+}
+
+#alchem-home-sections .alchem-home-section-7 .owl-theme .owl-dots .owl-dot {
+    border: 2px solid #ffffff;
+}
+
+#alchem-home-sections .alchem-home-section-8 {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#alchem-home-sections .alchem-home-section-8, .alchem-home-section-8 p, .alchem-home-section-8 span, .alchem-home-section-8 h1, .alchem-home-section-8 h2, .alchem-home-section-8 div, .alchem-home-section-8 li, .alchem-home-section-8 i {
+}
+
+#alchem-home-sections .alchem-home-section-8 a.magee-btn-normal {
+
+}
+
+#alchem-home-sections .alchem-home-section-8 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-8 .owl-theme .owl-dots .owl-dot:hover {
+
+}
+
+#alchem-home-sections .alchem-home-section-8 .owl-theme .owl-dots .owl-dot {
+    border: 2px solid;
+}
+
+#alchem-home-sections .alchem-home-section-9 {
+    background-color: #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#alchem-home-sections .alchem-home-section-9, .alchem-home-section-9 p, .alchem-home-section-9 span, .alchem-home-section-9 h1, .alchem-home-section-9 h2, .alchem-home-section-9 div, .alchem-home-section-9 li, .alchem-home-section-9 i {
+}
+
+#alchem-home-sections .alchem-home-section-9 a.magee-btn-normal {
+
+}
+
+#alchem-home-sections .alchem-home-section-9 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-9 .owl-theme .owl-dots .owl-dot:hover {
+
+}
+
+#alchem-home-sections .alchem-home-section-9 .owl-theme .owl-dots .owl-dot {
+    border: 2px solid;
+}
+
+#alchem-home-sections .alchem-home-section-10 {
+
+    background-image: url(../../../images/blog/bg-03-1.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#alchem-home-sections .alchem-home-section-10, .alchem-home-section-10 p, .alchem-home-section-10 span, .alchem-home-section-10 h1, .alchem-home-section-10 h2, .alchem-home-section-10 div, .alchem-home-section-10 li, .alchem-home-section-10 i {
+    color: #ffffff;
+}
+
+#alchem-home-sections .alchem-home-section-10 a.magee-btn-normal {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+#alchem-home-sections .alchem-home-section-10 .owl-theme .owl-dots .owl-dot.active, #alchem-home-sections .alchem-home-section-10 .owl-theme .owl-dots .owl-dot:hover {
+    background-color: #ffffff;
+}
+
+#alchem-home-sections .alchem-home-section-10 .owl-theme .owl-dots .owl-dot {
+    border: 2px solid #ffffff;
+}
+
+#custom {
+}

@@ -60,7 +60,7 @@ related.owlCarousel({
             loop:true
         }
     }
-})
+});
 
 	//fixed header
 	$(window).scroll(function(){
@@ -184,7 +184,7 @@ $('.side-header .site-nav .menu_column  .sub-menu').css({'width':$('.post-wrap')
 $('.site-nav ul li.menu-item-has-children').each(function(){
 	 $(this).prepend('<i class="fa fa-caret-down menu-dropdown-icon"></i>');
 	
-   })
+   });
 $(document).on('click','.menu-dropdown-icon',function(){
 		var submenu = 	$(this).parent('li').find('>ul.sub-menu');								  
 		submenu.slideToggle();	
@@ -335,7 +335,7 @@ var owl_testimonial = $("#home-page-testimonial");
 					});
 					  owl_testimonial.parents(".home-page-testimonial").find(".carousel-next").click(function(){
 					  owl_testimonial.trigger("next.owl.carousel");
-					})
+					});
 					  owl_testimonial.parents(".home-page-testimonial").find(".carousel-prev").click(function(){
 					  owl_testimonial.trigger("prev.owl.carousel");
 					});
@@ -367,7 +367,7 @@ var owl_clients = $("#alchem-home-style-2-clients");
 					});
 					 owl_clients.parents(".alchem-home-style-2-clients").find(".carousel-next").click(function(){
 					  owl_clients.trigger("next.owl.carousel");
-					})
+					});
 					owl_clients.parents(".alchem-home-style-2-clients").find(".carousel-prev").click(function(){
 					  owl_clients.trigger("prev.owl.carousel");
 					

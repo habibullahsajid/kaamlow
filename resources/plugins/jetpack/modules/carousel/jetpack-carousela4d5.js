@@ -365,7 +365,7 @@ jQuery(document).ready(function($) {
 								error: function(/*xhr, status, error*/) {
 									// TODO: Add error handling and display here
 									gallery.jp_carousel('postCommentError', {'field': 'jp-carousel-comment-form-comment-field', 'error': jetpackCarouselStrings.comment_post_error});
-									return;
+
 								}
 							});
 						}
@@ -1129,7 +1129,7 @@ jQuery(document).ready(function($) {
 				var regex = new RegExp('^' + val);
 				if ( regex.test(value) ) {
 					value = '';
-					return;
+
 				}
 			});
 			return value;

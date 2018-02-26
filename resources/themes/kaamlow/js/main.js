@@ -21,8 +21,8 @@ if( window.devicePixelRatio > 1 ){
 	
 	}
 // responsive or not
-if( alchem_params.responsive == "no" ){
-   $('meta[name="viewport"]').prop('content', 'width='+alchem_params.site_width.replace('px',''));
+if( KaamLow_params.responsive == "no" ){
+   $('meta[name="viewport"]').prop('content', 'width='+KaamLow_params.site_width.replace('px',''));
 }
 // parallax scrolling
 $('.parallax-scrolling').each(function(){
@@ -30,15 +30,15 @@ $('.parallax-scrolling').each(function(){
 	});
 
 //video background
- $('#alchem-youtube-video').parent('.section').css({'min-height':$(window).height()});
+ $('#KaamLow-youtube-video').parent('.section').css({'min-height':$(window).height()});
  var myPlayer;
         jQuery(function () {
-             myPlayer = jQuery("#alchem-youtube-video").YTPlayer();
+             myPlayer = jQuery("#KaamLow-youtube-video").YTPlayer();
         });
 
 	 
 // related posts
-var related = $(".alchem-related-posts");
+var related = $(".KaamLow-related-posts");
 
 related.owlCarousel({
     loop:true,
@@ -86,7 +86,7 @@ related.owlCarousel({
 		 }
 		 
 		  ////
-		 if( !($(window).width() < 919 && alchem_params.isMobile == 0 )) {
+		 if( !($(window).width() < 919 && KaamLow_params.isMobile == 0 )) {
 	 
 		  $('.fxd-header').css('top',stickyTop);
 					var scrollTop = $(window).scrollTop(); 
@@ -111,8 +111,8 @@ related.owlCarousel({
 	
 // nav menu search icon
   
-  if( alchem_params.show_search_icon === 'yes' ){
-	   $.ajax({type:"POST",dataType:"html",url:alchem_params.ajaxurl,data:"action=alchem_nav_searchform",
+  if( KaamLow_params.show_search_icon === 'yes' ){
+	   $.ajax({type:"POST",dataType:"html",url:KaamLow_params.ajaxurl,data:"action=KaamLow_nav_searchform",
 	    success:function(data){
 			$('header .main-header .main-nav').append('<li class="menu-item menu-item-search-icon"><a href="javascript:;"><i class="fa fa-search site-search-toggle"></i></a>'+data+'</li>');
 			$('header .fxd-header .main-nav').append('<li class="menu-item menu-item-search-icon"><a href="javascript:;"><i class="fa fa-search site-search-toggle"></i></a>'+data+'</li>');
@@ -139,19 +139,19 @@ related.owlCarousel({
 $('[data-toggle="tooltip"]').tooltip(); 
 
 // slider
-if( $('.alchem-carousel').length){
-	var interval = parseInt(alchem_params.slideshow_speed);
-	if(alchem_params.slider_autoplay == 'no')
+if( $('.KaamLow-carousel').length){
+	var interval = parseInt(KaamLow_params.slideshow_speed);
+	if(KaamLow_params.slider_autoplay == 'no')
 	interval = false;
 	
-$('.alchem-carousel').carousel({ interval: interval, cycle: true });
+$('.KaamLow-carousel').carousel({ interval: interval, cycle: true });
 }
 
 
 // scheme
- if( typeof alchem_params.global_color !== 'undefined' && alchem_params.global_color !== '' ){
+ if( typeof KaamLow_params.global_color !== 'undefined' && KaamLow_params.global_color !== '' ){
  less.modifyVars({
-        '@color-main': alchem_params.global_color
+        '@color-main': KaamLow_params.global_color
     });
    }
    
@@ -219,13 +219,13 @@ $(window).resize(function() {
 });  
   
   ///// footer
- if(alchem_params.footer_sticky == '1'){
+ if(KaamLow_params.footer_sticky == '1'){
 	 $('.fxd-footer').css({'margin-bottom':$('.fxd-footer .footer-info-area').outerHeight()});
 	 }
 	 
 	 
 // home page animation
-	    $('.alchem-animated').each(function(){
+	    $('.KaamLow-animated').each(function(){
 			 if($(this).data('imageanimation')==="yes"){
 		         $(this).find("img,i.fa").css("visibility","hidden");	
 		 }
@@ -236,7 +236,7 @@ $(window).resize(function() {
 	 });
 	
 	if(jQuery().waypoint) {
-		$('.alchem-animated').waypoint(function() {
+		$('.KaamLow-animated').waypoint(function() {
 											  
 			$(this).css({'visibility':'visible'});
 			$(this).find("img,i.fa").css({'visibility':'visible'});	
@@ -279,7 +279,7 @@ $(window).resize(function() {
 	if( $("#carousel-banner-section .item").length>1){
 	var owl_slider = $("#carousel-banner-section");
 	var autoplay;
-	if(alchem_params.slider_autoplay == 'yes' )
+	if(KaamLow_params.slider_autoplay == 'yes' )
 	autoplay = true;
 	else
 	autoplay = false;
@@ -287,7 +287,7 @@ $(window).resize(function() {
 						loop:true,
 						margin:0,
 						autoplay:autoplay,
-						autoplayTimeout:parseInt(alchem_params.slideshow_speed),
+						autoplayTimeout:parseInt(KaamLow_params.slideshow_speed),
 						autoplayHoverPause:true,
 						items:1,
 						responsiveClass:true,
@@ -341,7 +341,7 @@ var owl_testimonial = $("#home-page-testimonial");
 					});
 					owl_testimonial.find('.owl-dots').hide();  
 // home page clients	
-var owl_clients = $("#alchem-home-style-2-clients");
+var owl_clients = $("#KaamLow-home-style-2-clients");
 					owl_clients.owlCarousel({
 						loop:true,
 						margin:10,
@@ -365,10 +365,10 @@ var owl_clients = $("#alchem-home-style-2-clients");
 							}
 						}
 					});
-					 owl_clients.parents(".alchem-home-style-2-clients").find(".carousel-next").click(function(){
+					 owl_clients.parents(".KaamLow-home-style-2-clients").find(".carousel-next").click(function(){
 					  owl_clients.trigger("next.owl.carousel");
 					});
-					owl_clients.parents(".alchem-home-style-2-clients").find(".carousel-prev").click(function(){
+					owl_clients.parents(".KaamLow-home-style-2-clients").find(".carousel-prev").click(function(){
 					  owl_clients.trigger("prev.owl.carousel");
 					
  });
@@ -420,7 +420,7 @@ var s=$(".magee-feature-box.style2");
 			
 			
 //woocommerce
-$(document).on('click','.alchem-quantity .minus',function(){
+$(document).on('click','.KaamLow-quantity .minus',function(){
 		 var qtyWrap  = $(this).parent('.quantity');
 		 var quantity =  parseInt(qtyWrap.find('.qty').val());
 		 var min_num  =  parseInt(qtyWrap.find('.qty').attr('min'));
@@ -434,7 +434,7 @@ $(document).on('click','.alchem-quantity .minus',function(){
 	 qtyWrap.find('.qty').val(quantity);
 	 }
   });
-$(document).on('click','.alchem-quantity .plus',function(){
+$(document).on('click','.KaamLow-quantity .plus',function(){
 		var qtyWrap  = $(this).parent('.quantity');
 		var quantity =  parseInt(qtyWrap.find('.qty').val());
 		var min_num  =  parseInt(qtyWrap.find('.qty').attr('min'));
@@ -473,7 +473,7 @@ jQuery(window).on('load', function(){
  var $ = jQuery;
  //masonry
  // portfolio
-$('.alchem-masonry,.magee-masonry').masonry({
+$('.KaamLow-masonry,.magee-masonry').masonry({
  // options
                 itemSelector : '.portfolio-box-wrap'
             });

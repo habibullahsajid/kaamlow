@@ -214,7 +214,7 @@ overflow:hidden;
 
 /* home page */
 
-.alchem-home-style-0.alchem-home-section-0 .magee-heading {
+.KaamLow-home-style-0.KaamLow-home-section-0 .magee-heading {
     font-size: 70px;
     font-weight: 400;
     margin-top: 0;
@@ -224,11 +224,11 @@ overflow:hidden;
     text-align: right;
 }
 
-.alchem-home-style-1 .home-banner-slider a.magee-btn-normal{
+.KaamLow-home-style-1 .home-banner-slider a.magee-btn-normal{
 	border-width:0;
 	}
 	
-.alchem-home-style-1 .home-banner-slider .magee-heading{
+.KaamLow-home-style-1 .home-banner-slider .magee-heading{
  font-size:70px;
  font-weight:400;
  margin-top:0;
@@ -239,26 +239,26 @@ overflow:hidden;
 	
 	}
 	
-.alchem-home-style-1 .home-banner-slider .heading-border .heading-inner {
+.KaamLow-home-style-1 .home-banner-slider .heading-border .heading-inner {
  border-width: 5px;
  }
                                    
-.alchem-home-style-1 .home-banner-slider  .heading-doubleline .heading-inner:before,
-.alchem-home-style-1 .home-banner-slider  .heading-doubleline .heading-inner:after {
+.KaamLow-home-style-1 .home-banner-slider  .heading-doubleline .heading-inner:before,
+.KaamLow-home-style-1 .home-banner-slider  .heading-doubleline .heading-inner:after {
 
  border-width: 5px;
  }
-.alchem-home-style-1 .home-banner-slider .magee-btn-normal,.home-banner-slider .magee-btn-normal:hover{text-decoration:none !important;}
-.alchem-home-style-1 .home-banner-slider .magee-btn-normal {border-width:2px;}
-.alchem-home-style-1 .home-banner-slider .magee-btn-normal,.alchem-home-style-1 .home-banner-slider .magee-btn-normal:hover{color:#ffffff;}
-.alchem-home-style-1 .home-banner-slider .magee-btn-normal {color: #ffffff !important;border-color: #ffffff !important;}
+.KaamLow-home-style-1 .home-banner-slider .magee-btn-normal,.home-banner-slider .magee-btn-normal:hover{text-decoration:none !important;}
+.KaamLow-home-style-1 .home-banner-slider .magee-btn-normal {border-width:2px;}
+.KaamLow-home-style-1 .home-banner-slider .magee-btn-normal,.KaamLow-home-style-1 .home-banner-slider .magee-btn-normal:hover{color:#ffffff;}
+.KaamLow-home-style-1 .home-banner-slider .magee-btn-normal {color: #ffffff !important;border-color: #ffffff !important;}
 
 /* home page style 1*/
-.alchem-home-style-1 h2.section-title{
+.KaamLow-home-style-1 h2.section-title{
     text-align: center;
     font-family: 'Cuprum';
 	}
-.alchem-home-style-1.alchem-home-section-0 .magee-heading{
+.KaamLow-home-style-1.KaamLow-home-section-0 .magee-heading{
 	font-size:68px;
 	font-weight:600;
 	margin-top:0;
@@ -267,20 +267,20 @@ overflow:hidden;
 	border-color: #fff;
 	text-align: center;
 }
-.alchem-home-style-1.alchem-home-section-0 .heading-inner{
+.KaamLow-home-style-1.KaamLow-home-section-0 .heading-inner{
 	border:none;
 	
 	}
 
-.alchem-home-style-1.alchem-home-section-0 .magee-btn-normal,
-.alchem-home-style-1.alchem-home-section-0 .magee-btn-normal:hover{
+.KaamLow-home-style-1.KaamLow-home-section-0 .magee-btn-normal,
+.KaamLow-home-style-1.KaamLow-home-section-0 .magee-btn-normal:hover{
 	text-decoration:none ;
 	color:#fff;
 	border-color: #fff;
 	
 	}
 	
-.alchem-home-style-1.alchem-home-section-1 .magee-heading {
+.KaamLow-home-style-1.KaamLow-home-section-1 .magee-heading {
     font-size: 62px;
     font-weight: 600;
     margin-top: 0;
@@ -291,16 +291,16 @@ overflow:hidden;
 /* home page style 2*/
 
 
-.alchem-home-style-2 h2.section-title{
+.KaamLow-home-style-2 h2.section-title{
     text-align: center;
     font-family: 'Poiret One';
 	font-size: 42px;
 	}
-.alchem-home-style-2 .section-subtitle{
+.KaamLow-home-style-2 .section-subtitle{
 	text-align:center;
 	font-size:12px;
 }
-.alchem-home-style-2 .home-banner-slider .magee-heading {
+.KaamLow-home-style-2 .home-banner-slider .magee-heading {
     font-size: 62px;
     font-weight: 600;
     margin-top: 0;
@@ -309,24 +309,24 @@ overflow:hidden;
     border-color: #fff;
     text-align: center;
 }
-.alchem-home-style-0 .section-subtitle{
+.KaamLow-home-style-0 .section-subtitle{
 	text-align:center;
 	}
 	
 @media screen and (max-width: 960px) {
-    .alchem-home-style-0.alchem-home-section-0 .magee-heading .heading-inner {
+    .KaamLow-home-style-0.KaamLow-home-section-0 .magee-heading .heading-inner {
         font-size: 75%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .alchem-home-style-0.alchem-home-section-0 .magee-heading .heading-inner {
+    .KaamLow-home-style-0.KaamLow-home-section-0 .magee-heading .heading-inner {
         font-size: 60%;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .alchem-home-style-0.alchem-home-section-0 .magee-heading .heading-inner {
+    .KaamLow-home-style-0.KaamLow-home-section-0 .magee-heading .heading-inner {
         font-size: 50%;
     }
 }

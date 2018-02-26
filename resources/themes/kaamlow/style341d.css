@@ -2071,17 +2071,17 @@ a .entry-title:hover {
 	width: 100%;
 }
 
-.alchem_menu_widget ul {
+.KaamLow_menu_widget ul {
     margin: 0;
 }
 
-.alchem_menu_widget li {
+.KaamLow_menu_widget li {
     padding: 0;
     margin: 0;
     border-bottom: 0;
 }
 
-.alchem_menu_widget li a {
+.KaamLow_menu_widget li a {
     display: block;
     border-style: solid;
     border-color: #e5e5e5;
@@ -2092,19 +2092,19 @@ a .entry-title:hover {
     background-color:#fafafa;
 }
 
-.alchem_menu_widget li li a {
+.KaamLow_menu_widget li li a {
     padding-left: 20px;
 }
 
-.alchem_menu_widget li li li a {
+.KaamLow_menu_widget li li li a {
     padding-left: 30px;
 }
 
-.alchem_menu_widget ul.menu {
+.KaamLow_menu_widget ul.menu {
     border-top: 1px solid #e5e5e5;
 }
 
-.alchem_menu_widget li.current-menu-item a {
+.KaamLow_menu_widget li.current-menu-item a {
     border-right: 2px solid #fdd200;
 }
 
